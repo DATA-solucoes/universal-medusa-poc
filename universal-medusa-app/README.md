@@ -68,3 +68,10 @@ Join our [Discord server](https://discord.com/invite/medusajs) to meet other com
 - [Twitter](https://twitter.com/medusajs)
 - [LinkedIn](https://www.linkedin.com/company/medusajs)
 - [Medusa Blog](https://medusajs.com/blog/)
+
+
+## TODO
+- Add default dev key to seeds.
+- Add a new ADMIN user to seed too
+- Create a FotolivroProduct default
+- Create a PriceList - For default users and for Special Users
