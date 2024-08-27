@@ -1,4 +1,10 @@
 <template>
-  <h1 class="text-2xl text-slate-800">Home page</h1>
-  <Button>Click me</Button>
+  <h2 class="text-2xl font-semibold tracking-tight">Universal Photos</h2>
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: "dashboard",
+  title: "Dashboard | Home",
+});
+</script>
