@@ -1,14 +1,14 @@
-version: "3.8"
-services:
-  backend:
-    environment:
-      NODE_ENV: development
-    volumes:
-      - ./universal-medusa-app:/app/medusa
-      - universal-medusa-app_node_modules:/app/medusa/node_modules
-    ports:
-      - "9000:9000"
-      - "7001:7001"
+# version: "3.8"
+# services:
+  # backend:
+  #   environment:
+  #     NODE_ENV: development
+  #   volumes:
+  #     - ./universal-medusa-app:/app/medusa
+  #     - universal-medusa-app_node_modules:/app/medusa/node_modules
+  #   ports:
+  #     - "9000:9000"
+  #     - "7001:7001"
     
     # network_mode: host
     
@@ -23,6 +23,6 @@ services:
   #   ports:
   #     - "8000:8000"
 
-volumes:
+# volumes:
   # universal-storefront_node_modules:
-  universal-medusa-app_node_modules:
+  # universal-medusa-app_node_modules:
