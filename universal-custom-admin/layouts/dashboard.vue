@@ -27,7 +27,10 @@
                   <circle cx="12" cy="12" r="10" />
                   <polygon points="10 8 16 12 10 16 10 8" />
                 </svg>
-                Fotolivros
+
+                <NuxtLink to="/fotolivros">
+                  Fotolivros
+                </NuxtLink>
               </Button>
 
               <Button variant="ghost" class="w-full justify-start">
@@ -44,7 +47,9 @@
                   <circle cx="12" cy="12" r="10" />
                   <polygon points="10 8 16 12 10 16 10 8" />
                 </svg>
-                Mídias
+                <NuxtLink to="/configs">
+                  Configurações
+                </NuxtLink>
               </Button>
             </div>
           </div>
@@ -58,3 +63,5 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+</script>
